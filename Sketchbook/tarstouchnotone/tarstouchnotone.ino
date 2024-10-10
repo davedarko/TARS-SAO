@@ -5,7 +5,7 @@ const int touch_threshold_adjust = 300;
 const int touch_pins[] = {13, 12, 11, 10, 9, 8};
 const int touch_count = sizeof(touch_pins) / sizeof(int);
 
-uint8_t led 
+uint8_t ledPin = 7;
 
 #include <TFT_eSPI.h> // Hardware-specific library
 #include <SPI.h>
@@ -19,7 +19,7 @@ uint16_t colors[] = {
   TFT_YELLOW,
   TFT_GREEN,
   TFT_BLUE,
-  TFT_ORANGE,
+  TFT_PURPLE,
   TFT_WHITE
 };
 
